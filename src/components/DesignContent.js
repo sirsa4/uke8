@@ -3,8 +3,7 @@ import { MainContentStyle } from "../styles/MainContentStyle";
 import {useEffect} from 'react';
 
 
-const ContentFlex = ({post1, setPost1, post2, setPost2}) => {
-  
+const DesignContent = ({post1, setPost1, post2, setPost2}) => {
 
   const getpost1 = async()=>{
     const response = await fetch('https://jsonplaceholder.typicode.com/photos/1');
@@ -53,4 +52,4 @@ const ContentFlex = ({post1, setPost1, post2, setPost2}) => {
   );
 };
 
-export default ContentFlex;
+export default DesignContent;

@@ -1,4 +1,4 @@
-import ContentFlex from "../components/ContentFlex";
+import DesignContent from "../components/DesignContent";
 import Nav from "../components/Nav";
 import {useState} from 'react';
 
@@ -12,7 +12,7 @@ const Design =()=>{
             <Nav />
             <div>
                 Design Page
-                <ContentFlex 
+                <DesignContent 
                 post1={post1}
                 setPost1={setPost1}
                 post2={post2}
