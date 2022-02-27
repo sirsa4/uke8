@@ -25,5 +25,6 @@ export const HomeSection = styled.div`
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
     flex-direction: row;
+    
   }
 `;

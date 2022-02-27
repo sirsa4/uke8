@@ -1,10 +1,10 @@
 import Home from "./pages/Home";
-import Oppgave1 from "./pages/Oppgave1";
+import Oppgave1 from "./oppgave1/Oppgave1";
 
 import {BrowserRouter as Router, Routes as Switch, Route} from 'react-router-dom'
 import Design from "./oppgave1/Design";
-import Programming from "./pages/Programming";
-import Support from "./pages/Support";
+import Programming from "./oppgave1/Programming";
+import Support from "./oppgave1/Support";
 
 //theme provider to controll responsive mainly
 import {ThemeProvider} from 'styled-components';

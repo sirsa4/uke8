@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const HeaderStyle = styled.header`
 background-color: white;
 box-shadow: 1px 0 1px black;
+text-decoration: none;
 
 
 
@@ -15,16 +16,37 @@ box-shadow: 1px 0 1px black;
 export const NavOppgave1 = styled.nav`
     min-height: 10vh;
    
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color: green;
+        }
+    }
 
     ul{
         display: flex;
         flex-direction: column;
         list-style: none;
+        text-decoration: none;
+        
       
-        
-        
-        
+      
     }
+
+   a:nth-child(2)::before{
+       content: '01';
+       padding-top: 20px;
+   }
+   a:nth-child(3)::before{
+       content: '02';
+       padding-top: 20px;
+   }
+   a:nth-child(4)::before{
+       content: '03';
+       padding-top: 20px;
+   }
+
 
     @media (min-width: ${({theme})=>theme.desktop}){
         ul {

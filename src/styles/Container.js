@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const HomeContainer = styled.div`
 width: 100%;
 height: 100%;
-display: flex;
-flex-direction: column;
+/* display: flex;
+flex-direction: column; */
 background-color: gold;
 margin: 0 auto;
 
@@ -15,11 +15,13 @@ max-width: 1000px;
 width: 100%;
 max-height: 50vh;
 height: 100vh;
-display: flex;
+/* display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
-    
+align-items: center; */
+    h1{
+        padding-top: 20px;
+    }
 }
 
 `

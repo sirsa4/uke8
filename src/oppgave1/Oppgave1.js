@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import Nav from "../components/Nav";
 
-import Design from "../oppgave1/Design";
+import Design from "./Design";
 
 const Oppgave1 = () => {
   return (
