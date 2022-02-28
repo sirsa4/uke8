@@ -7,6 +7,7 @@ import {useState} from 'react';
 
 const Oppgave2 = () => {
   const [input, setInput]=useState('');
+  const [status, setStatus]=useState('Not done');
   const [todo, setTodo]=useState([]);
   return (
     <HomeContainer>
@@ -17,10 +18,12 @@ const Oppgave2 = () => {
           setInput={setInput}
           todo={todo}
           setTodo={setTodo}
+          status={status}
           />
           <TodoCard
           todo={todo}
           setTodo={setTodo}
+          setStatus={setStatus}
           />
       </main>
     </HomeContainer>

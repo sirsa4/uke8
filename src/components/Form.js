@@ -1,6 +1,6 @@
 import { FormContainer } from "../styles/FormContainer";
 
-const Form = ({ input, setInput, todo, setTodo }) => {
+const Form = ({ input, setInput, todo, setTodo, status }) => {
   const change = (e) => {
   /*   console.log(e.target.value); */
     setInput(e.target.value);
@@ -13,7 +13,7 @@ const Form = ({ input, setInput, todo, setTodo }) => {
       const newTodo = [...todo, {id: Math.floor(Math.random() * 1000), todo: input, status: 'Not done'}];
       setTodo(newTodo);
       setInput('');
-      console.log(todo);
+      /* console.log(todo); */
     }
   }
   return (
