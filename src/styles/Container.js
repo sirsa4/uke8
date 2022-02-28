@@ -5,11 +5,10 @@ width: 100%;
 height: 100%;
 /* display: flex;
 flex-direction: column; */
-background-color: gold;
+/* background-color: gold; */
 margin: 0 auto;
 
 
-    
 @media (min-width: 768px){
 max-width: 1000px;
 width: 100%;

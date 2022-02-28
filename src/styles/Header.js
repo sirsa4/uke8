@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const HeaderStyle = styled.header`
-background-color: white;
+background-color: ${({theme})=>theme.card.nav};
 box-shadow: 1px 0 1px black;
 text-decoration: none;
+
+
 
 
 
@@ -35,15 +37,15 @@ export const NavOppgave1 = styled.nav`
     }
 
    a:nth-child(2)::before{
-       content: '01';
+       /* content: '01'; */
        padding-top: 20px;
    }
    a:nth-child(3)::before{
-       content: '02';
+      /*  content: '02'; */
        padding-top: 20px;
    }
    a:nth-child(4)::before{
-       content: '03';
+       /* content: '03'; */
        padding-top: 20px;
    }
 
